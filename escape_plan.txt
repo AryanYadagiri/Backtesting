@@ -1,0 +1,48 @@
+sma = 20, rsi = 40
+
+# sma rising or falling, rsi at support near 50 for long and resistance near 50 for short.
+# stoploss lower wick, take profit 2x risk per trade.
+# risk per trade = 1-2% of capital.
+
+backtest it asap.
+
+Learn np.where(), np.diff(), np.cumprod(), np.maximum.accumulate(), np.dot(), np.percentile(). That's the core 6 for backtesting. Everything else is optimization.
+
+strategy
+entry
+exit
+holding
+- accuracy
+- returns
+- visualize
+
+period (str): Data period to download (default: '1mo'). Valid: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max.
+interval (str): Data frequency (default: '1d'). Valid: 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo.
+
+Your stop loss is too tight, thats why you won only one trade out of 16 last you traded on aster.
+
+Rule to remember forever 🧠 [dont get confused between the candle number and array indexing ]
+
+Signals look backward. (n-1 candle)
+Risk management looks at “now”. (n candle)
+Execution happens next. (n+1 candle)
+
+TATASTEEL.NS
+DOGE-USD
+HINDZINC.NS
+
+supertrend1 = 10,1
+supertrend2 = 11,2
+supertrend3 = 12,3
+
+Buy when every supertrend gives buy signal and sell if 2nd or 3rd supertrend gives sell signal. Use signal candle's low and subtract it with it's 14 ATR to set stoploss. Mirror the rules for shorting.
+
+# Wait for the candle to close whenever you get a signal as per your strategy
+
+# Higher Timeframes does not become more safer or riskier they have their own challenges and conditions
+
+# Position sizing should be as per the account size. Tip - use smaller timeframes for small accounts as they give smaller stoploss suitable for smaller timeframes
+
+# Never ever go against the trend, it can be your worst nightmare
+
+Now its enough of opinions now just focus on supertrend and at most mean reversion trading strategies, or forget your dream of financial independence and quietly be a corporate slave
