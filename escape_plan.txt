@@ -46,3 +46,11 @@ Buy when every supertrend gives buy signal and sell if 2nd or 3rd supertrend giv
 # Never ever go against the trend, it can be your worst nightmare
 
 Now its enough of opinions now just focus on supertrend and at most mean reversion trading strategies, or forget your dream of financial independence and quietly be a corporate slave
+
+Intraday mean reversion intraday (My express highway)
+
+# 5 mins candle chart, vwap, Bollinger bands (20, 20) with no sma, stochasticRSI 14, ATR 14, trade on oversold/overbought stochRSI signals while price touching the Bollinger bands. Take profit when price touches Vwap or if the market is about to close (unfortunately) and set stoploss on signal candle's low +/- ATR of the signal candle.
+
+now go learn about about market type analysis, I trust you, you will make it up.
+
+Trade only from 11 to 1, all positions should be closed before 2pm.
